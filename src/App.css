@@ -1,0 +1,44 @@
+.app{
+    background-color:#05292E;
+    min-height: 100vh;
+    max-width: 2456px;
+}
+
+.app__title{
+    text-align: center;
+    padding-top: 5em;
+    margin-bottom: 1.5em;
+    
+    height: 50vh;
+    background-image: url(./img/Rick-and-Morty.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.app__title-img{
+    height: 300px;
+    max-width: 1024px;
+}
+
+.app__form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.5em;
+}
+
+.app__input{
+    padding: 0.8 1.2em;
+    border-radius: 0.8em 0 0  0.8em;
+}
+
+.app__btn{
+    border-radius: 0 0.5em 0.5em 0;
+    padding: 0 1em;
+    background-color: rgb(125, 199, 14);
+    color: white;
+}
